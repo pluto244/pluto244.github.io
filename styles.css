@@ -1,6 +1,7 @@
 /* Стили для макета и блоков */
 body {
   margin: 0;
+  padding: 0;
   background-color: rgb(229, 255, 255);
 }
 
@@ -260,17 +261,14 @@ header {
 }
 
 /* Стили для адаптивной верстки */
-@media (max-width: 1140px) {
-  .container {
+
+
+@media (max-width: 768px) {
+
+  .navigation{
     width: 100%;
-    padding: 10px;
   }
-}
-
-@media (max-width: 480px) {
-
-  header,
-  footer {
-    padding: 10px;
+  .navigation li{
+    display:flex;
   }
 }
