@@ -1,2 +1,2 @@
 # webclean
-One Page Site only with html and css
+One Page Site for cleaaning company only with html and css
