@@ -1,7 +1,7 @@
 /* Стили для макета и блоков */
 body {
   margin: 0;
-  background-color: rgb(232, 255, 255);
+  background-color: rgb(229, 255, 255);
 }
 
 .container {
@@ -15,13 +15,13 @@ body {
   padding: 20px;
   position: fixed;
   top: 0;
-  width: 10px;
+
   z-index: 999;
   display: flex;
   align-items: center;
-  border-bottom-right-radius:15px;
-  border-bottom-left-radius:15px;
-  
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
 
 }
 
@@ -38,16 +38,22 @@ body {
   display: inline;
   margin: 10px;
 }
+
 .navigation li a {
   text-decoration: none;
-  color:rgb(70, 69, 69);
+  color: rgb(70, 69, 69);
 }
-.navigation li a:visited, a:focus, a:hover {
+
+.navigation li a:visited,
+a:focus,
+a:hover {
   text-decoration: none;
-  color: #4a4a4a;/* Цвет ссылки */ 
-  background:rgb(232, 255, 255);
+  color: #4a4a4a;
+  /* Цвет ссылки */
+  background: rgb(232, 255, 255);
 }
-  /*           */
+
+/*           */
 
 .main-info {
   margin-top: 80px;
@@ -62,8 +68,8 @@ body {
   height: 100%;
   background-image: url("https://cleanoff.by/assets/images/clinery.jpg");
   background-size: cover;
-  opacity: 0.9; 
-  border-radius:15px;
+  opacity: 0.9;
+  border-radius: 15px;
 
 }
 
@@ -72,7 +78,7 @@ body {
   z-index: 1;
   padding: 20px;
   color: rgb(0, 0, 0);
-  
+
 }
 
 
@@ -80,7 +86,7 @@ body {
   font-size: 2em;
   margin-bottom: 10px;
   color: red;
-  
+
 }
 
 .main-info p {
@@ -90,19 +96,21 @@ body {
 
 .main-content {
   margin-top: 20px;
-  
+
 }
+
 /* // */
 header {
   text-align: center;
   color: rgb(0, 0, 0);
   padding: 5px;
-  margin-top: 45px;;
+  margin-top: 45px;
+  ;
 }
 
 
 .description {
-  
+
   background-color: #ffffff;
   padding: 20px;
   filter: drop-shadow(5px 5px 4px #a9a9a9);
@@ -117,10 +125,11 @@ header {
 .services-description {
   background-color: #ffffff;
   padding: 20px;
-    filter: drop-shadow(5px 5px 4px #a9a9a9);
+  filter: drop-shadow(5px 5px 4px #a9a9a9);
   border-radius: 15px;
 }
-.service-bold-description{
+
+.service-bold-description {
   font-weight: bold;
   filter: drop-shadow(5px 5px 4px #a9a9a9);
   border-radius: 15px;
@@ -152,6 +161,7 @@ header {
 .services li p {
   margin-top: 10px;
 }
+
 .services img {
   width: 100%;
 }
@@ -192,6 +202,7 @@ header {
   width: auto;
   padding: 5px 10px;
 }
+
 .contact {
   background-color: #ffffff;
   padding: 30px;
@@ -219,7 +230,7 @@ header {
   margin-left: 80px;
   font-size: 25px;
   color: black;
-  text-decoration: none ;
+  text-decoration: none;
 }
 
 
@@ -257,6 +268,7 @@ header {
 }
 
 @media (max-width: 480px) {
+
   header,
   footer {
     padding: 10px;
